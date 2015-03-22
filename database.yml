@@ -1,0 +1,15 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: test
+  pool: 5
+  username: <%= ENV['DB_USERNAME'] %>
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: test
+  pool: 5
+  username: <%= ENV['DB_USERNAME'] %>
